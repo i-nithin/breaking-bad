@@ -12,7 +12,7 @@ const Singlecharacter = ({match}) => {
 
     useEffect(() => {
         fetchItem()
-    },[])
+    })
 
     const fetchItem = async() =>{
         const res = await fetch(`https://www.breakingbadapi.com/api/characters/${id}`)
@@ -31,7 +31,7 @@ const Singlecharacter = ({match}) => {
                     return(
                         <div className='chr-cnt' key={char.char_id}>
                             <div  className='img-hldr'>
-                                <img src={char.img} />
+                                <img src={char.img} alt = {char.name}/>
                                 <h1>{char.name}</h1>
                             </div>
                             <div className='chr-info'>
