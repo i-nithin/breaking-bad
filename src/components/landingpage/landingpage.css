@@ -1,0 +1,27 @@
+.lp-cnt {
+    padding: 1.25rem;
+    margin: 7rem auto;
+    text-align: center;
+    height: 10vh;
+}
+.btn-cnt {
+    padding: 4rem;
+}
+
+.btn{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.8rem;
+    background-color: #3D8736;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.btn:hover{
+    background-color: #112A17;
+}
+
