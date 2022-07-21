@@ -37,6 +37,7 @@ const Characters = () => {
                     } else if(char.name.toLowerCase().includes(searchInput.toLocaleLowerCase())){
                         return char
                     }
+                  return false
                 } ).map(char => {
                     return loading ? (<Spinner />):(
                         <Character key={char.char_id} char = { char } loading = { loading } />
